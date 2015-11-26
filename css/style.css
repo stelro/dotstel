@@ -1,0 +1,120 @@
+@font-face {
+  font-family: ro-stel-font;
+  src: url('fonts/FUTURAL.TTF');
+}
+
+@font-face {
+    font-family: code-pro;
+    src: url('fonts/OfficeCodePro-Regular.ttf');
+}
+
+@font-face {
+    font-family: menlo-linux;
+    src: url('fonts/Menlo-Regular.tff');
+}
+
+@font-face {
+    font-family: monaco-linux;
+    src: url('fonts/Monaco-Linux.tff');
+}
+
+body {
+    background-color: #101112;
+}
+
+.stel-title {
+    color: #fff;
+    text-align: center;
+    font-family: ro-stel-font;
+    font-size: 74px;
+    padding-top: 80px;
+}
+
+.stel-about-text {
+    font-family: menlo;
+    color: #aaaaaa;
+}
+
+.stel-lang {
+    color: #aaaaff;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.stel-mail-div {
+    margin-top: 50px;
+}
+
+.stel-mailto {
+    margin-top: 20px;
+}
+.stel-img {
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 200px;
+    width: 150px;
+    float: right;
+}
+
+.stel-lang:hover {
+    color: #5555ff;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.stel-lang-selected {
+    color: #5555ff;
+}
+
+.stel-about-title {
+    text-align: center;
+    color: #55ff55;
+    font-weight: bold;
+}
+
+.stel-main-p-div {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.stel-main-p {
+    color: #aaaaff;
+    font-family: code-pro;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.stel-main-p:hover {
+    color: #5555ff;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+
+
+
+a:link {
+    text-decoration: none;
+    color: #ff5555;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ff5555;
+}
+
+a:active {
+    text-decoration: none;
+    color: #ff5555;
+}
