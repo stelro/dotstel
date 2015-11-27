@@ -1,0 +1,165 @@
+@import "variables.less";
+@import (reference) "../lib/bootstrap/less/bootstrap.less";
+
+
+body {
+    background-color: @bg-color;
+}
+
+@media (max-width: @screen-xs-max) {
+    .stel-img {
+        margin-top: 30px;
+        border-radius: 20px;
+        height: 200px;
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .stel-img {
+        margin-top: 30px;
+        border-radius: 20px;
+        height: 200px;
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .stel-img {
+        margin-top: 30px;
+        border-radius: 20px;
+        height: 200px;
+        width: 150px;
+        float:right;
+    }
+}
+
+@media (min-width: @screen-lg-min) {
+    .stel-img {
+        margin-top: 30px;
+        border-radius: 20px;
+        height: 200px;
+        width: 150px;
+        float:right;
+    }
+}
+
+.stel-title {
+    color: @white;
+    text-align: center;
+    font-family: ro-stel-font;
+    font-size: 74px;
+    padding-top: 80px;
+}
+
+.stel-about-text-en {
+    font-family: code-pro;
+    color: @gray;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.stel-about-text-el {
+    font-family: code-pro;
+    color: @gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.stel-lang {
+    color: @purple-light;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.stel-mailto {
+    text-align: center;
+}
+
+.stel-lang:hover {
+    color: @purple;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.stel-lang-selected {
+    color: @purple;
+}
+
+.stel-about-lang-div {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.stel-about-title {
+    text-align: center;
+    color: @green;
+    font-weight: bold;
+}
+
+.stel-main-p-div {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.stel-main-p {
+    color: @purple-light;
+    font-family: code-pro;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.stel-main-p:hover {
+    color: @purple;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+    color: @red;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    color: @red;
+}
+
+a:active {
+    text-decoration: none;
+    color: @red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: @red-hover;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+}
