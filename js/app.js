@@ -1,4 +1,4 @@
-angular.module('stelmach', ['stelmach.controllers','stelmach.services','stelmach.resources','ngResource','ngRoute'])
+angular.module('stelmach', ['stelmach.controllers','stelmach.services','stelmach.animations','stelmach.resources','ngResource','ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
     $routeProvider.

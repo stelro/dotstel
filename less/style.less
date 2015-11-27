@@ -17,6 +17,15 @@ body {
         margin-right: auto;
 
     }
+
+    .view-animate-container {
+      position:relative;
+      height:1000px!important;
+      border:1px solid white;
+      height:1000px;
+      overflow:hidden;
+    }
+
 }
 
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
@@ -30,6 +39,14 @@ body {
         margin-right: auto;
 
     }
+
+    .view-animate-container {
+      position:relative;
+      height:1000px!important;
+      border:1px solid white;
+      height:1000px;
+      overflow:hidden;
+    }
 }
 
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
@@ -40,6 +57,14 @@ body {
         width: 150px;
         float:right;
     }
+
+    .view-animate-container {
+      position:relative;
+      height:600px!important;
+      border:1px solid white;
+      height:600px;
+      overflow:hidden;
+    }
 }
 
 @media (min-width: @screen-lg-min) {
@@ -49,6 +74,14 @@ body {
         height: 200px;
         width: 150px;
         float:right;
+    }
+
+    .view-animate-container {
+      position:relative;
+      height:600px!important;
+      border:1px solid white;
+      height:600px;
+      overflow:hidden;
     }
 }
 
@@ -162,4 +195,38 @@ a:hover {
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     cursor: pointer;
+}
+
+
+// Animation
+
+
+
+
+.view-animate {
+  padding:10px;
+}
+
+.view-animate.ng-enter, .view-animate.ng-leave {
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s;
+
+  display:block;
+  width:100%;
+
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  padding:10px;
+}
+
+.view-animate.ng-enter {
+  left:100%;
+}
+.view-animate.ng-enter.ng-enter-active {
+  left:0;
+}
+.view-animate.ng-leave.ng-leave-active {
+  left:-100%;
 }
