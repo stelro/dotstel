@@ -1,0 +1,3 @@
+var connect = require('connect');
+var serverStatic = require('server-static');
+connect().use(serverStatic(_dirname)).listen(8080);
